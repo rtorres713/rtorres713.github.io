@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Blog 0"
+date:   2020-09-05 17:54:06 -0700
+categories: jekyll update
+---
+HTML is the way websites manage and present their webpages. In another class we talked about the difference between the &lt;b&gt;, and the &lt;strong&gt;, HTML tags. Visually they are identical, but devices like screen readers and webcrawlers see them differently. HTML and the building of this blog site has taught me how important knowing how to improve websites. 
+
+Creating this blog post required me to learn how to use Bundler. Bundler is a way to get all dependant programs and recources (aka dependancies). Bundler makes creating a jekyl website easier and prevents errors from not having dependant recources. Installing Bundler is done through the CLI (depending on your operating system it is called either the command prompt or the terminal, but I've seen those terms used interchangeably). The commands to install bundler are as followed:
+
+{% highlight ruby %}
+gem install bundler
+{% endhighlight %}
+
+Then you need to specify the gem file as followed:
+{% highlight ruby %}
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
+{% endhighlight %}
+
+Finally run the commands below and you are done:
+{% highlight ruby %}
+$ bundle install
+$ git add Gemfile Gemfile.lock
+{% endhighlight %}
+
+Creating a website this way wasn't too difficult in my Opinion but I did have some trouble with the setup of bundler and jekyll. However, I researched solutions to my problems and it was because I wasn't using bundler when I thought I was. 
+
+The lesson in all of this: <strong>Follow all steps and don't attempt to skip steps unless you know what you are doing.<strong>
