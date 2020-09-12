@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Blog 1"
+date:   2020-09-11 00:00:00 -0700
+categories: jekyll update
+---
+HTML error/response codes are crucial to determining a webserver's status. The most famous and known HTML error code is 404 which is given when the webserver can't find the page requested by the web browser. HTML code 404 tells the web browser that the requested page either doesn't exist or can't be reached. If a websearch consistantly gives the code 404 then the webpage most likely doesn't exist. Codes in the 4xx range represent a client error and can help troubleshoot problems.
+
+HTML code 200 isn't normaly seen by the user as it is an indicator that the website was successfully loaded and no errors were detected. Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action. Codes in the 2xx range represent a successful communication and are rarely seen by the end user.
+
+HTML Code 100 and others within the same range are simply informative in what is happening with the server communication. These codes are used when changing protocols or for communication between the client and server. These codes aren't usually seen by the end user but they communicate necessary information between client and server to establish or maintain connections.
+
+HTML 3xx codes are used for redirection information. Certain webpages redirect users to different webpages these codes require the client to take additional steps to complete the request. This doesn't always mean the end user needs to take action as this process is usually handled automatically, but, a user agent should not automatically redirect a request more than five times, since such redirections usually indicate an infinite loop.
+
+5xx HTML codes indicate a server error. This range of codes means that the server is aware that it has encountered an error or is otherwise incapable of performing the request. Thses codes are used to inform that the server knows of the request but cannot fufill the request for various reasons. This could be that the server is simplily overwhelmed or the request is from an invalid HTML version. This range of codes can help determine that the server exists and can see the request, but due to technical reasons it cannot fufill the request as it either doesn't know how to or can't.
+
+These codes are useful in diagnosing weberver's status and can be used to fix any errors in HTML related webservers.
