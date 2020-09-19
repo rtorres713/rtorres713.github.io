@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Blog 2"
+date:   2020-09-05 17:54:06 -0700
+categories: jekyll update
+---
+This week was my first time using Docker. Docker is a type of virtualization software that allows for the use of virtual machines. I created a LAMP stack (Linux Appache, MySql, PHP) in a virtual machine using Docker Desktop for Windows. This virtual machine is accessed via a GUI that displays the terminal of the Linux virtual machine. The first step of creating a LAMP stack in docker is to run the command <code> docker run -it -p 8080:80 --name lab1 ubuntu:18.04 bash </code> this takes care of the L part in LAMP.
+
+Creating a LAMP stack in docker is rather simple if you follow the correct steps. Installing Apache is a simple as using <code> apt-get Apache2 </code> and checking if Apache was successfuly installed run the command <code> apache2 -v </code> installing apache doesn't start the service however and to start Apache run the command <code> service apache2 start </code> this creates the A in LAMP.
+
+Now that the L and A part of LAMP are taken care of the next step is to do get the M and P the code to run is <code>  apt-get install -y mysql-client </code> and then <code>  apt-get install -y php libapache2-mod-php php-mysql php7.2-cli php7.2-curl php7.2-gd php7.2-mbstring php7.2-mysql php7.2-xml php-xml </code> and I ran into the problem where php-xml didn't install and had to manually install php-xml <code> apt install php-xml </code> did this and this problem didn't come up until later in the setup process.
+
+Now the only thing left to do now is to create the info.php file in the directory /var/www/html/ that contains only 
+<code>
+<?php
+phpinfo();
+?>
+<code>
+Once the file is created, restart the apache server with <code> service apache2 restart </code> and now check the info.php in the host computer by putting <code> localhost:8080/info.php </code> in a web browser on the host computer. Once you see the info.php remember to remove it for security reasons. Reading the info.php file is to check to see if everything working properly.
+
+At this point, a LAMP stack has been successfuly created and you can use this to create a website. 
