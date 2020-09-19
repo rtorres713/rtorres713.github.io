@@ -15,7 +15,7 @@ Now the only thing left to do now is to create the info.php file in the director
 <?php
 phpinfo();
 ?>
-<code>
+</code>
 Once the file is created, restart the apache server with <code> service apache2 restart </code> and now check the info.php in the host computer by putting <code> localhost:8080/info.php </code> in a web browser on the host computer. Once you see the info.php remember to remove it for security reasons. Reading the info.php file is to check to see if everything working properly.
 
 At this point, a LAMP stack has been successfuly created and you can use this to create a website. 
