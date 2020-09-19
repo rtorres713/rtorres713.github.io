@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog 2"
-date:   2020-09-05 17:54:06 -0700
+date:   2020-09-08 00:00:00 -0700
 categories: jekyll update
 ---
 This week was my first time using Docker. Docker is a type of virtualization software that allows for the use of virtual machines. I created a LAMP stack (Linux Appache, MySql, PHP) in a virtual machine using Docker Desktop for Windows. This virtual machine is accessed via a GUI that displays the terminal of the Linux virtual machine. The first step of creating a LAMP stack in docker is to run the command <code> docker run -it -p 8080:80 --name lab1 ubuntu:18.04 bash </code> this takes care of the L part in LAMP.
