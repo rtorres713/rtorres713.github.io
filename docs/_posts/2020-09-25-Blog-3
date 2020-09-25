@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Blog 3"
+date:   2020-09-25 00:00:00 -0700
+categories: jekyll update
+---
+ Using HTML attributes allows for better control of the layout or functionality of the elements. These following elements have some attribute that changes either their look or funcionality. The following are attributes that I found through my research of HTML elements.
+ 
+The first example is the dir attribute. This attribute changes the direction of the text. <code dir="rtl">This has the dir from right to left.</code> Notice how the period is at the beginning but the text itself doesn't change. In english the default is left to right and <code dir="ltr">It doesn't appear to change as this is the correct and default way english is read.</code>
+ 
+The draggable attribue allows for the element to be dragged, and possibly dropped, into other places like a google reverse image search or a folder on the local machine. This attribute can make it more user friendly to use a website.
+
+The final attribute is the loading attribute. This attribute is useful in websites that have alot of information, elements, or ads that could take a while to load. Not wanting the user to be stuck in loading all of the assets at once it is useful to use the loading attribute. This allows certain attributes to be loaded when the client scrolles close enough to the element and can improve the user's experience using the website. This element is difficult to show in action with a small text.
