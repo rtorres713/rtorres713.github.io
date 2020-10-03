@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Blog 4"
+date:   2020-10-2 00:00:00 -0700
+categories: jekyll update
+---
+Docker files automate the process of creating a docker container with certain aspects. For example, docker containers are linux baised virtual machines, but don't always have up to date packages installed. The simplest use for a docker file is creating a docker file that runs the commands <code> apt update </code> and <code> apt upgrade </code> to install the latest packages available for the given linux version. Docker files would run certain commands during the build of the docker container, therefore you can use docker files to build a LAMP stack.
+
+Not to long ago I used a Dockerfile to build a LAMP stack. This can be configured depending on how you want the webpage to function. A lamp stack requires many different packages to be installed and you can install multiple packages by doing a <code> <i>package name</i>\  <i>linebrake</i> </code>. You can also copy files into the docker container being built by using the <code> COPY <i>fileName fullDirectoryPath</i> </code> if the being copied is in the same directory of the dockerfile. Then once you run the <code> docker build <i> dockerBuildName </i> . </code> in the directory containing the dockerfile (you can replace the "." with the full directory path) it will copy the file into the docker container during it's build. This process can be used to copy edited config files into the docker container.
+
+You can also clone github repositories using a dockerfile. It is as simple as getting the git command and then doing the command <code> git clone <i>repositoryURL</i> </code> and this is probably the simplest part of building a LAMP stack if the repository has been setup correctly. I had some problems with commands not being executed in the correct location, but this was fixed by having the command run in the same line as the <code> cd </code> command, like <code> cd <i>fullDirectoryPath</i> && <i> secondCommand </i> </code> With all of this information you should be able to setup a LAMP stack in a dockerfile configured the way you want.
