@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Blog 5"
+date:   2020-10-09 00:00:00 -0700
+categories: jekyll update
+---
+Building a website from scratch requires knowledge of both HTML and CSS. HTML provides the data used for the webpage while CSS us used to structure the page. While HTML can be used for page layout, it is usually best if CSS is used for layout as it is designed to structure HTML pages. Using CSS you can structure your webpages easier and quickly make layout changes without needing to touch the HTML. HTML is best utilized by grouping and ordering data for the webpage and if you properly give class names to different data, you can easily change how it looks with CSS.
+
+Using class names in the HTML tags can make it easy to apply certain effects, layouts, or even colors to specific types of data quickly and easily. Proper and consistant naming conventions will make this process much easier and quicker. While you can give names such as <code>fiormfni</code> it is usally a good idea to name the class related to the information contained in the HTML tag. Selecting a specific class in CSS is done by doing <code>.<i>className</i>{<i>CSS_Code</i></code>. The dot at the beginning depicts a class type and then you can do anything you can do with CSS. 
