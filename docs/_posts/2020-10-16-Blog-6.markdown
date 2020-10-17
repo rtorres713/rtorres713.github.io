@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Blog 6"
+date:   2020-10-16 00:00:00 -0700
+categories: jekyll update
+---
+Ansible can be used to help automate tasks to different machines. Ansible uses SSH to establish connections between machines, so a single playbook can be applied to many different machines at the same time. An ansible playbook is a list of instructions for the machine to follow and can help with updating many machines simultaneously. However, ansible isn't all powerful, it has very space sensitive syntax and the debugger may not correctly identify where the problem is. If you correctly use spaces for nesting the code, ansible is a very powerful tool.
+
+Ansible playbooks first attemps to establish a connection to all machines listed in the hosts file (if there is one). This can become a problem with firewalls and SSH keys so it is best to be aware of these potential problems. If the hosts is defined as localhosts, it still does this step but would simply run the playbook itself. Ansible has many different moduels that can be found <a href="https://docs.ansible.com/ansible/2.8/modules/modules_by_category.html" target="_blank">here</a> or a simple google search could help find a moduel for the task(s) you are attempting to do. However if the moduel that ansible has doesn't work in the way you want, you can always use the <code> shell: </code> module that would simpy run shell commands.
