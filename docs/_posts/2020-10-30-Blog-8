@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Blog 8"
+date:   2020-10-30 00:00:00 -0700
+categories: jekyll update
+---
+Javascript can help add some dynamic aspects to a webpage. With Javascript you can create a website that changes baised on user input or even develope a browser baised game. I reciently created a giga pet game using Javascript, more specifically the JQuery library. Objects created with Javascript can be given an array of elements that can be accessed and changed using dot notation. Dot notation is where you select an attribute by calling <code> <i>objectName.attributeName</i> </code>. Comparisons can be done with <code> == != <= >= </code> like most other languages. Also variables can be incremented by doing <code> ++ +n </code> where n is any positive whole number and decrementing a variable with <code> -- -n </code> 
+
+Getting click events can be done with Javascript by labling the HTML button or tag and doing <code> $(".<i>tagName</i>").click(<i>functionBeingCalled</i>) </code> and then you can create a game using these buttons. After you implement all of these things in the javascript you can update the HTML by doing <code> $(".<i>tagName</i>").text(<i>newValue</i>) </code>. Building a game using javascript allows for players to use a web browser to play the game. If you have a webserver to host the game, you can make the game publically available through a web search and then the possibilities are endless on what can be done with monitization or user experience. 
