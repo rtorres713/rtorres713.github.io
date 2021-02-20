@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog 0-SP21"
-date:   2020-02-19 00:00:00 -0700
+date:   2021-02-19 00:00:00 -0700
 categories: jekyll update
 ---
 In recent times, there has been a growth in the idea of cloud computing and cloud based services. While marketing these services states that things are going into the "cloud" what actually is cloud computing?
