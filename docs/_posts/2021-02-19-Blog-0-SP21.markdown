@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Blog 0-SP21"
+date:   2020-02-19 00:00:00 -0700
+categories: jekyll update
+---
+In recent times, there has been a growth in the idea of cloud computing and cloud based services. While marketing these services states that things are going into the "cloud" what actually is cloud computing?
+
+Cloud computing is basically renting a server, or piece of a server, in order to have it accomplish a function. AWS is built to make it easy for companies and people alike to "borrow" a server in order for various reasons. I talk more about how to start using AWS <a href="https://rtorres713.github.io/jekyll/update/2020/11/06/Blog-9.html" target="_blank" > here.</a>The most common use of cloud computing is webhosting. Hosting a website through the cloud is usually cheaper than buying server equipment and having to deal with the upkeep of said equipment. Cloud computing can also dynamically allocate resources during peak times and can allow for processing/storage of large amounts of data.
+
+Many different services have used the "cloud" as a way to reduce costs, and in the aspect of gaming, it can allow for better gameplay. <a href="https://www.nvidia.com/en-us/geforce-now/" target="_blank">Nvidia Geforce Now </a> is a service to make games more available to people. This is a cloud computing service and is designed to allow people to play games regardelss of the computer they own. This service allows players to play games even if their system can't normally play it. Geforce Now would stream the game to the player through the internet, with all of the processing power being done by Nvidia's servers. More information about this service can be found on the Geforce Now webpage.
+
+While the cloud can be a vague and ambigious, being more uses as a catch all for anything running on hardware you don't own completly, it allows for companies to create an easily marketable solution to different problems. <a href="https://ring.com/">Ring</a> uses cloud to quickly and easily explain that you can easily access recordings through the internet without needing expensive hardware to store and distribute these videos. While cloud computing probably can't solve every problem, cloud computing has gained more uses as more devices are connected to the Internet of Things. As the cloud and cloud services grow and evolve, we will be more connected to the internet almost making the internet a required first world utility like water and electricity.
