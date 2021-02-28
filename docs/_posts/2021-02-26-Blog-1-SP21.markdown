@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Blog 2-SP21"
+date:   2021-02-26 00:00:00 -0700
+categories: jekyll update
+---
+When attempting to build a website, having a domain name can make it easier for people to find the website. A domain name links an ip address to an easy to remember name. There are many different ways to regester a domain name, but it usually requires some sort of payment to do so. The website <a href="https://www.godaddy.com/" target="_blank">Godaddy</a> is a way for people to register a domain name. Godaddy also offers other services but I'll be focousing on the domain name aquisition.
+
+Most people know a website as it's domain name, but a website is actually a file on a server. This is an over simplification of what a website actually is but for the sake of argument this is how it tends to be. When browsing on the web, a client device is making request to servers for their html files. Computers work best with numbers and humans work best with text and the domain name registry is an attempt to bridge the two. For the most part, a domain name registry is just a link between the text domain name and the ip address associated with it. 
+
+The DNS (Domain Name System) allows for computers to make the association between a domain name and an ip address. Basically, when you type a domain name such as <a href="https://www.google.com/" target="blank">google.com</a>, your computer would ask the DNS server "hey do you know the ip for ___?" and then the server will respond with either the answer or go look for the record for this information. This is why registering a domain name is important when starting a business, people on the internet are good at trolling and this includes buying domain names with the intent on selling it for a profit. Domain name registries like godaddy make it easy for people to buy domain names and even edit the A record if the ip for the domain has changed.
