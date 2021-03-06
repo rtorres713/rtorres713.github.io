@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Blog 2-SP21"
+date:   2021-03-05 00:00:00 -0700
+categories: jekyll update
+---
+A SSH bastion is a way to increase security on a server. A SSH bastion is a machine that has connection to the main server (whatever that may be) and to the internet. Usually speaking, when you set up a server that can be accessed through the internet, you should restrict that access to only use the intended ports. For example, if you setup a webserver you only want to allow HTTP and HTTPS traffic. But this can cause problems when you are trying to update the webpage as nobody can make a remote connection to modify the files. This kind of action is usually done using SSH.
+
+Now if you leave the port for SSH open (port 80) anyone with malicious intent can do whatever they want to your server. Passwords and SSH keys can be  compromised, but if the attacker doesn't know the IP address of the server, they can't do anything with this knowledge. If you are setting up a webserver, you can have it's IP address behind a loadbalancer that only allows HTTP or HTTPS traffic depending on if you own an SSL certificate. So now the webserver's IP address is obscured behind a loadbalancer and now you can use an SSH bastion to connect to the webserver.
+
+The webserver shouldn't have a public IP address when using an SSH bastion, and having one would only make the server have another attack surface. The idea of an SSH bastion is to limit the attack surface of your server. Now you setup the webserver to only accept SSH traffic from the SSH bastion's IP address which would now be in the private IP range. Finally you setup the SSH bastion to have a public IP that can accept SSH traffic from a specific IP range (that includes your IP address). This step can be as specific (for more security) or as broad (for more ease of use) as needed. Depending on what you need, you can setup an SSH bastion to immediatly send SSH traffic to the intended server. Using a SSH bastion in combination to a SSH key greatly increases the security on a server.
