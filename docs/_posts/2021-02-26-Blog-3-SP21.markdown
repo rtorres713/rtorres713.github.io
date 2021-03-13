@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Blog 3-SP21"
+date:   2021-03-12 00:00:00 -0700
+categories: jekyll update
+---
+GitHub actions can help automate certain tasks when a certain github event occurs. These events can be triggered when someone pushes to a certain branch or during a pull request. GitHub actions uses YAML syntax to define jobs and steps. The YAML files in the repository will be in the directory <code>.github/workflows</code>. Do note that "workflows" is plural as this is the directory GitHub will look into for the YAML file(s). The GitHub actions will create a tempary virtual machine and attempt to execute certain commands. If any of these commands fail, the entire action fails. This can be used to check if a program can run on different versions of operating systems, or even different versons of software.
+
+These machines are spun up, and once they are done with their task, they are deleted afterward. These machines are like a docker file (look <a href="https://rtorres713.github.io/jekyll/update/2020/09/18/Blog-2.html" target="_blank">here</a> for my blog post on Docker files) in the sense that they are virtual machines that can execute commands that a specific operating system can. This means you would use commands like <code>apt install</code> to get certain packages based on the OS chosen. In the YAML file defining the GitHub action, you can define the OS in the jobs section. For more info about setting up the YAML file check <a href="https://docs.github.com/en/actions" target="_blank">GitHub Docs</a> for more info about setting up GitHub actions. GitHub actions can help automate anything from deployment of working code to AWS to simply checking for bugs in the code. GitHub acions can help with the development of applications in GitHub repos by automating various tasks.
